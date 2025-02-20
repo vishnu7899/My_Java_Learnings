@@ -8,8 +8,10 @@ public class fib {
         int first_digit=0;
         int second_digit=1;
         int next_digit=0;
-        
-        for(int i=1;i<=n;i++){
+
+        //Iterative Approach
+
+        for(int i=0;i<n;i++){
         System.out.print(first_digit+ " ");
          next_digit=first_digit+second_digit;
          first_digit= second_digit;
@@ -17,7 +19,7 @@ public class fib {
         
         }
         System.out.println();
-        System.out.println("Sum "+next_digit);
+        //System.out.println("Sum "+next_digit);
         sc.close();
     }
 }
