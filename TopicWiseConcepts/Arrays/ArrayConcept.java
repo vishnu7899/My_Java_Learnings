@@ -1,4 +1,4 @@
-package Topicwise_concepts.Arrays;
+package TopicWiseConcepts.Arrays;
 
 import java.util.Scanner;
 
