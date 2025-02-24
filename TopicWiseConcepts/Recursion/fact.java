@@ -6,6 +6,7 @@ public class fact {
         System.out.println("Factorial of: " +num+ " is: "+factorial(num));
     }
     static int factorial(int n){
+        
         if(n==0){
             return 1;
         }
